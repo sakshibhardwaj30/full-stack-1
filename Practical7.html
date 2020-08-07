@@ -25,6 +25,7 @@
         align-items: center;
         color: white;
         font-size: 40px;
+        margin-bottom: 15px;
     }
     #Banner{
         background-color: skyblue;
@@ -46,57 +47,73 @@
         color: white;
         font-size: 40px;
     }
-    #circle1{
-        background-color: darkgoldenrod;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
+    #content1{
+        border: solid;
+    }
+    #content1::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    #leftside{
+        width:49%;
+        background-color: gray;
+        height: 515px;
         float: left;
-    }
-    #circle2{
-        background-color: darkgoldenrod;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        float: left;
-    }
-    #circle3{
-        background-color: darkgoldenrod;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        float: left;
-    }
-    #circle4{
-        background-color: darkgoldenrod;
-        height: 100px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
 
+    }
+    #rightside{
+        width: 49%;
+        height: 515px;
+        float: right;
+}
+#article1{
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+#article2{
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+#article3{
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
 </style>
 <body>
     <div id="container">
         <div id="header">header</div>
-        <br>
         <div id="Banner">Banner</div>
+        <div id="content1">
+            <div id="leftside"></div>
+            <div id="rightside">
+                <div id="article1">Article-1</div>
+                <div id="article2">Article-2</div>
+                <div id="article3">Article-3</div>
+            </div>
+        </div>
+
+
         <h1 style="text-align: center;">Section-1 </h1>
-        <div id="circle1"></div>
-        <div id="circle2"></div>
-        <div id="circle3"></div>
-        <div id="circle4"></div>
+        
         <div id="footer">footer</div>
     </div>
 </body>
