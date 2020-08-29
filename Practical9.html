@@ -6,19 +6,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Practical 9</title>
     <style>
-        /* Reset all Margins & Padding */
         * {
           padding: 0;
           margin: 0;
           box-sizing: border-box;
           font-family: Arial, Helvetica, sans-serif;
         }
-    
-        /* 
-          --Resolve Position Fixed Issue-- 
-                          & 
-            ----------Smooth Scroll ------ 
-          */
     
         html {
           scroll-padding-top: 70px;
@@ -31,8 +24,6 @@
           margin: auto;
         }
     
-        /* ------Header Container-------- */
-    
         #header {
           background-color: grey;
           width: 100%;
@@ -42,8 +33,6 @@
           top: 0;
           height: 70px;
         }
-    
-        /* Navigation Menu  */
         .menu {
           list-style: none;
           float: right;
@@ -81,8 +70,6 @@
           padding-right: 20px;
         }
     
-        /* ------------------Banner ------------- */
-    
         #banner {
           width: 100%;
           margin-top: 90px;
@@ -103,8 +90,6 @@
           margin: 20px 20px;
           color: #fff;
         }
-    
-        /* ------- Team Members ----- */
     
         #circle-container {
           width: 100%;
@@ -129,8 +114,6 @@
           align-items: center;
           font-size: 30px;
         }
-    
-        /* -------------About Us-------------- */
         #sec2-container::after {
           content: '';
           display: block;
@@ -192,8 +175,6 @@
           background-size: cover;
           background-repeat: no-repeat;
         }
-    
-        /* --------- Technologies Used------------ */
         #grid-container {
           width: 100%;
           margin: 15px auto;
@@ -253,8 +234,6 @@
         .grid>a:hover {
           background-color: blue;
         }
-    
-        /* -------Footer Section ------- */
         #footer {
           background-color: plum;
           height: 100px;
@@ -266,9 +245,6 @@
           text-align: center;
           padding: 20px;
         }
-    
-        /* 1. First Break-point */
-        /* 801px - 1199px */
     
         @media (min-width: 801px) and (max-width: 1199px) {
           .menu {
@@ -315,8 +291,6 @@
             padding-right: 20px;
           }
     
-          /* ------Header Container-------- */
-    
           #header {
             width: 100%;
             background-color: grey;
@@ -324,8 +298,6 @@
             top: 0;
             height: 70px;
           }
-    
-          /* ------------------Banner ------------- */
     
           #banner {
             width: 100%;
@@ -348,8 +320,6 @@
             color: #fff;
           }
     
-          /* ------- Team Members ----- */
-    
           #circle-container {
             width: 100%;
           }
@@ -369,8 +339,6 @@
             margin-left: 15%;
             margin-bottom: 20px;
           }
-    
-          /* -------------About Us-------------- */
     
           #sec2-container::after {
             content: '';
@@ -433,8 +401,6 @@
             background-size: cover;
             background-repeat: no-repeat;
           }
-    
-          /* --------- Technologies Used------------ */
           #grid-container {
             width: 100%;
             margin: 15px auto;
@@ -496,8 +462,6 @@
           .grid>a:hover {
             background-color: blue;
           }
-    
-          /* -------Footer Section ------- */
           #footer {
             background-color: plum;
             height: 100px;
@@ -510,8 +474,6 @@
             padding: 20px;
           }
         }
-    
-        /* 2. Second Break-point */
     
         @media (max-width: 800px) {
           #header {
@@ -703,10 +665,7 @@
             padding: 25px 0px;
           }
     
-          /* 3. Third Break-point */
-    
           @media (max-width: 625px) {
-            /* Set container to min-width of 320px */
     
             #container {
               min-width: 320px;
